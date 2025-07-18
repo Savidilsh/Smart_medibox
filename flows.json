@@ -1,0 +1,36 @@
+[
+    {
+        "id": "pub_servo",
+        "type": "mqtt out",
+        "z": "d274f42830b16e0f",
+        "name": "",
+        "topic": "medibox/cfg/servo",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "35b700e2ca0336b1",
+        "x": 600,
+        "y": 480,
+        "wires": []
+    },
+    {
+        "id": "35b700e2ca0336b1",
+        "type": "mqtt-broker",
+        "name": "Medibox",
+        "broker": "test.mosquitto.org",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthQos": "0",
+        "willQos": "0"
+    }
+]
